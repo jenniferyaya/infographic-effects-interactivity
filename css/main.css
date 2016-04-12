@@ -4,6 +4,9 @@ html {
   font: normal 100%/1.3 Open Sans, sans-serif;
 }
 
+h2, h3 {
+  text-decoration: none;
+}
 svg:focus {
   outline: 3px solid #000;
 }
