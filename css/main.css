@@ -7,6 +7,7 @@ html {
 h2, h3 {
   text-decoration: none;
 }
+
 svg:focus {
   outline: 3px solid #000;
 }
@@ -232,6 +233,36 @@ h1 {
 .right-r {
   background-color: #a4b8b6;
 }
+
+
+/* -------- animations -------*/
+
+#yellow {
+  opacity: .5;
+  background-color: #ecd177;
+  transition: all 200ms linear;
+
+    transform-origin: center center;
+}
+
+#yellow:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.clumsy {
+  transform-origin: center center;
+  animation: tip 100ms infinite alternate;
+}
+
+@keyframes tip {
+  0% { transform: rotate(5deg); }
+  100% { transform: rotate(9deg); }
+}
+
+
+
+
 /* ----------- Xsml 240px ---------- */
 
 @media only screen and (min-width: 14em) {

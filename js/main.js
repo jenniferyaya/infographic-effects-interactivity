@@ -1,1 +1,3 @@
-#lightyellow
+var $clumsy = $('.clumsy');
+
+
