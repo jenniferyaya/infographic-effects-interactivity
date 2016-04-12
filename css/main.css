@@ -1,0 +1,300 @@
+/* ----------- Design ---------- */
+
+html {
+  font: normal 100%/1.3 Open Sans, sans-serif;
+}
+
+svg:focus {
+  outline: 3px solid #000;
+}
+
+.background-img {
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-color {
+  background-color: #ecf2f2;
+}
+
+.blue {
+  color: #203347;
+}
+
+svg {
+  stroke: transparent;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.intro-p {
+  width: 90%;
+}
+
+.bar-text {
+  fill: #0a3656;
+}
+
+.bar-org {
+  fill: #ed5a49;
+}
+
+.bar-blue {
+  fill: #e9f5fc;
+}
+
+.text-blue {
+  fill: #dde8f0;
+  stroke: #dde8f0;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.dot-blue {
+  fill: none;
+  stroke: #0a3656;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 0.8;
+}
+
+.line-yellow {
+  fill: none;
+  stroke: #ecd177;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.yellow-fill {
+  fill: #ecd177;
+}
+
+.globe-opa {
+  opacity: 0.26;
+  fill: #337d7d;
+}
+
+.transparent {
+  fill: none;
+}
+
+.nervosa {
+  fill: none;
+  stroke: #0a3656;
+  stroke-width: 0.3467;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.nervosa-org {
+  fill: #ed5a49;
+  stroke: #ed5a49;
+  stroke-width: 0.1444;
+  stroke-miterlimit: 10;
+}
+
+.circle-yellow {
+  opacity: 0.5;
+  fill: #ecd177;
+}
+
+.white-fill {
+  fill: #fff;
+}
+
+.st8 {
+  fill: none;
+  stroke: #85cccb;
+  stroke-width: 0.2835;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st9 {
+  fill: #fff;
+  stroke: #85cccb;
+  stroke-width: 0.375;
+  stroke-miterlimit: 10;
+}
+
+.st10 {
+  fill: #0a3656;
+  stroke: #0a3656;
+  stroke-width: 9.3060;
+  stroke-miterlimit: 10;
+}
+
+.st12 {
+  fill: none;
+  stroke: #0a3656;
+  stroke-width: 0.1296;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.dot-line {
+  fill: none;
+  stroke: #ed5a49;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 0.8;
+}
+
+.mrn-fill {
+  fill: #542337;
+}
+
+.org-rule {
+  fill: none;
+  stroke: #c12944;
+  stroke-width: 0.8464;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.mrn-dot {
+  fill: none;
+  stroke: #542337;
+  stroke-width: 0.378;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.mrn-stroke {
+  stroke: #542337;
+}
+
+.circle-blue {
+  opacity: 0.5;
+  fill: #337d7d;
+}
+
+.palette-14 {
+  fill: #00a14b;
+}
+
+.palette-15 {
+  fill: #224099;
+}
+
+.palette-16 {
+  fill: #ffdd15;
+}
+
+.palette-17 {
+  fill: #ec1c24;
+}
+
+.eye {
+  fill: #fff;
+  stroke: #542337;
+  stroke-width: 0.3762;
+  stroke-miterlimit: 10;
+}
+
+.ellipse-maroon {
+  fill: #542337;
+  stroke: #542337;
+  stroke-width: 4.2525;
+  stroke-miterlimit: 10;
+}
+
+.ellipse-white {
+  fill: #fff;
+  stroke: #542337;
+  stroke-width: 3.9375;
+  stroke-miterlimit: 10;
+}
+
+.left-y {
+  background-color: #eee3b6;
+}
+
+.right-r {
+  background-color: #a4b8b6;
+}
+/* ----------- Xsml 240px ---------- */
+
+@media only screen and (min-width: 14em) {
+
+  html {
+    font-size: 80%;
+  }
+}
+
+/* ----------- Sml 320px ---------- */
+
+@media only screen and (min-width: 20em) {
+
+  html {
+    font-size: 100%;
+  }
+}
+
+/* ----------- Med 600px ---------- */
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+  }
+}
+/* ----------- Lrg 900px ---------- */
+
+@media only screen and (min-width: 55em) {
+
+  html {
+    font-size: 120%;
+  }
+}
+
+/* ----------- Print ---------- */
+
+@media print {
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  svg {
+    width: 45%;
+  }
+
+  .intro, .banner, .overview {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .intro-p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
