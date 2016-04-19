@@ -250,17 +250,36 @@ h1 {
   transform: scale(1.2);
 }
 
-.clumsy {
+#clumsy {
   transform-origin: center center;
-  animation: tip 100ms infinite alternate;
+  animation: shake 100ms infinite alternate;
 }
 
-@keyframes tip {
+@keyframes shake {
   0% { transform: rotate(5deg); }
   100% { transform: rotate(9deg); }
 }
 
+#globe {
+  transform-origin: center center;
+  animation: spin 6s infinite linear;
+}
 
+@keyframes spin {
+
+  0% { transform: rotate(360deg); }
+
+  100% { transform: rotate(0deg); }
+
+}
+
+.pathblue {
+  transform: scaleX(0);
+}
+
+.grows {
+  transform: scaleX(1);
+}
 
 
 /* ----------- Xsml 240px ---------- */
