@@ -279,6 +279,7 @@ h1 {
 
 .grows {
   transform: scaleX(1);
+  transition: 1s;
 }
 
 
