@@ -282,6 +282,21 @@ h1 {
   transition: 1s;
 }
 
+.stat {
+  transition: all 200ms linear;
+
+  transform-origin: center center;
+}
+
+.stat:hover {
+  fill: #ecd177;
+  stroke: #ecd177;
+}
+
+
+
+
+
 
 /* ----------- Xsml 240px ---------- */
 
