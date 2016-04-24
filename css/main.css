@@ -234,15 +234,14 @@ h1 {
   background-color: #a4b8b6;
 }
 
-
-/* -------- animations -------*/
+/* -------- animations ------- */
 
 #yellow {
   opacity: .5;
   background-color: #ecd177;
   transition: all 200ms linear;
 
-    transform-origin: center center;
+  transform-origin: center center;
 }
 
 #yellow:hover {
@@ -256,7 +255,9 @@ h1 {
 }
 
 @keyframes shake {
+
   0% { transform: rotate(5deg); }
+
   100% { transform: rotate(9deg); }
 }
 
@@ -292,11 +293,6 @@ h1 {
   fill: #ecd177;
   stroke: #ecd177;
 }
-
-
-
-
-
 
 /* ----------- Xsml 240px ---------- */
 
