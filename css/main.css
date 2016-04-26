@@ -317,8 +317,21 @@ h1 {
   100% { transform: rotate(360deg); }
 }
 
+#leader {
+  opacity: 0;
+}
 
+#leader.appear {
+  opacity: 1;
+  transition: 1s;
+}
 
+.ontext rect {
+  stroke: #000;
+  stroke-width: 4;
+  fill: purple;
+  xfill: #eee3b6;
+}
 
 /* ----------- Xsml 240px ---------- */
 
