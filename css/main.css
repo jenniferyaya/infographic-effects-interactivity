@@ -294,6 +294,32 @@ h1 {
   stroke: #ecd177;
 }
 
+#planner, .heart, #logical, #precise, .realistic, .piano, .emotional, .art, .magnify, .intuition, .earphone {
+  transition: all 500ms linear;
+
+  transform-origin: center center;
+}
+
+#planner:hover, .heart:hover, #logical:hover, #precise:hover, .realistic:hover, .piano:hover, .emotional:hover, .art:hover, .magnify:hover, .intuition:hover, .earphone:hover {
+  opacity: 1;
+  transform: scale(1.4);
+}
+
+.isrotate {
+  transform-origin: center center;
+  animation: rotate 900ms infinite alternate;
+}
+
+@keyframes rotate {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
 /* ----------- Xsml 240px ---------- */
 
 @media only screen and (min-width: 14em) {
