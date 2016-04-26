@@ -317,13 +317,13 @@ h1 {
   100% { transform: rotate(360deg); }
 }
 
-#leader {
-  opacity: 0;
+#leader, #folder {
+  transform: scaleY(0);
 }
 
-#leader.appear {
-  opacity: 1;
-  transition: 1s;
+#leader.appear, #folder.appear {
+  transform: scaleY(1);
+  transition: 300ms;
 }
 
 .ontext rect {
