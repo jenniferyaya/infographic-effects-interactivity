@@ -317,21 +317,37 @@ h1 {
   100% { transform: rotate(360deg); }
 }
 
-#leader, #folder {
+#leader, #folder, #audio, #free, #alone, #graph {
   transform: scaleY(0);
 }
 
-#leader.appear, #folder.appear {
+#leader.appear, #folder.appear, #audio.appear, #free.appear, #alone.appear, #graph.appear {
   transform: scaleY(1);
   transition: 300ms;
 }
 
-.ontext rect {
+.onleft rect {
   stroke: #000;
   stroke-width: 4;
-  fill: purple;
-  xfill: #eee3b6;
+  fill: #eee3b6;
 }
+
+.onright rect {
+  stroke: #000;
+  stroke-width: 4;
+  fill: #eee3b6;
+}
+
+#hourglass, #letter, #direction, #chart, #cloud, #microphone {
+  transform: scaleY(0);
+}
+
+#hourglass.appear, #letter.appear, #direction.appear, #chart.appear, #cloud.appear, #microphone.appear {
+  transform: scaleY(1);
+  transition: 300ms;
+}
+
+
 
 /* ----------- Xsml 240px ---------- */
 
