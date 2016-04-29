@@ -344,10 +344,8 @@ h1 {
 
 #hourglass.appear, #letter.appear, #direction.appear, #chart.appear, #cloud.appear, #microphone.appear {
   transform: scaleY(1);
-  transition: 300ms;
+  transition: 200ms ease-out;
 }
-
-
 
 /* ----------- Xsml 240px ---------- */
 
